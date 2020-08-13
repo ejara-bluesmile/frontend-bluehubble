@@ -1,0 +1,119 @@
+.navbar {
+  background: #233b80;
+}
+.navbar img {
+  width: 200px;
+}
+
+.masthead {
+  background: linear-gradient(
+      to bottom,
+      rgba(35, 59, 128, 0.3) 0%,
+      rgba(35, 59, 128, 0.7) 75%,
+      #233b80 100%
+    ),
+    url("../resource/wallpaper1.png");
+  /* /filter: blur(2px); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.img-why {
+  margin-bottom: -100px;
+}
+.projects-section {
+  margin-top: 100px;
+}
+.projects-section h2 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 100px;
+  color: #029bc6;
+}
+.team h1 {
+  margin-top: -70px;
+  color: #029bc6;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+}
+
+.product img {
+  width: 100%;
+  height: 100%;
+}
+.product-text1 {
+  background-color: #233b80;
+}
+.product-text2 {
+  background-color: #029bc6;
+}
+.featured-text p {
+  color: #233b80;
+}
+.team-section {
+  padding-bottom: 40px;
+}
+.card {
+  margin-top: 20px;
+  background: #029bc6;
+}
+.card h4 {
+  color: #ffffff;
+}
+.card .small {
+  color: #ffffff;
+}
+.team {
+  margin-bottom: 80px;
+}
+.team img {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+}
+.contact-section {
+  background: linear-gradient(
+      to bottom,
+      rgba(35, 59, 128, 0.3) 0%,
+      rgba(35, 59, 128, 0.7) 75%,
+      #233b80 100%
+    ),
+    url("../resource/wallpaper1.png");
+  /* /filter: blur(2px); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+.contact-section p {
+  color: #ffffff;
+}
+.contact-section h1 {
+  color: #ffffff;
+}
+.contact-section .btn {
+  display: block;
+  margin: auto;
+}
+.contact-section textarea {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+footer {
+  background: #233b80;
+  margin: 0;
+  padding: 50px;
+}
+#projects .row {
+  width: 100%;
+  height: 100%;
+}
