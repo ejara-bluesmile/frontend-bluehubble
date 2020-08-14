@@ -26,11 +26,16 @@ export default function NavBar() {
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#about">
-                  Product
+                  Nosotros
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#projects">
+                  Product
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#team">
                   Team
                 </a>
               </li>
@@ -40,7 +45,7 @@ export default function NavBar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#signup">
+                <a class="nav-link js-scroll-trigger" href="#login">
                   Login
                 </a>
               </li>

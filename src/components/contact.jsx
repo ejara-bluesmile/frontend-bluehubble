@@ -5,13 +5,10 @@ export default function contact() {
     <div>
       <section class="contact-section" id="signup">
         <div class="container">
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
           <h1 className="text-center">Any Question?</h1>
+          <i class="far fa-paper-plane fa-2x mb-2 text-white font-contact"></i>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem
-            debitis culpa quidem aliquam sed consectetur saepe? Numquam beatae
-            voluptatem commodi impedit, omnis suscipit exercitationem amet
-            quaerat placeat, provident nam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto text-center">

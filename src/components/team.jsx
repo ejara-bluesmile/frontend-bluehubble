@@ -7,7 +7,7 @@ import Icon3 from "../resource/perfil2.webp";
 export default function Team() {
   return (
     <div>
-      <section class="team-section">
+      <section class="team-section" id="team">
         <div class="container team">
           <h1>Team</h1>
           <div class="row">
@@ -33,9 +33,7 @@ export default function Team() {
                   <h4 class="text-uppercase m-0">Sebastian Henao</h4>
                   <hr class="my-4" />
                   <div class="small ">
-                    <a href="#!">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
-                    </a>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
                   </div>
                 </div>
               </div>
