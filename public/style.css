@@ -52,6 +52,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -5989,6 +5990,7 @@ a.close.disabled {
 }
 .modal-backdrop.show {
   opacity: 0.5;
+  z-index: auto;
 }
 
 .modal-header {
@@ -10576,7 +10578,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #233b80;
+  /* background-color: #233b80; */
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10718,15 +10720,18 @@ body {
 }
 
 .about-section {
+  background: #ffffff;
   padding-top: 10rem;
   background: linear-gradient(
     to bottom,
-    #233b80 0%,
+    #00608d 0%,
     rgba(2, 155, 198, 0.9) 75%,
     rgba(2, 155, 198, 0.8) 100%
   );
+  /* border-bottom: solid 10px #00608d; */
 }
 .about-section p {
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
