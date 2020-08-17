@@ -1,6 +1,4 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
-import iconCard from "../resource/card.jpg";
 import prod1 from "../resource/product5.jpg";
 import prod2 from "../resource/dash.jpg";
 import prod3 from "../resource/dash2.jpg";

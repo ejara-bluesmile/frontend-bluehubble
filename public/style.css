@@ -52,6 +52,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -4682,7 +4683,7 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
@@ -5989,6 +5990,7 @@ a.close.disabled {
 }
 .modal-backdrop.show {
   opacity: 0.5;
+  z-index: auto;
 }
 
 .modal-header {
@@ -10576,12 +10578,12 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #0d1642;
+  /* background-color: #233b80; */
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: #ffffff;
   border: 1px solid #64a19d;
 }
 #mainNav .navbar-toggler:focus {
@@ -10718,15 +10720,18 @@ body {
 }
 
 .about-section {
+  background: #ffffff;
   padding-top: 10rem;
   background: linear-gradient(
     to bottom,
-    #233b80 0%,
+    #00608d 0%,
     rgba(2, 155, 198, 0.9) 75%,
     rgba(2, 155, 198, 0.8) 100%
   );
+  /* border-bottom: solid 10px #00608d; */
 }
 .about-section p {
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
