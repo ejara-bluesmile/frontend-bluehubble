@@ -16,6 +16,12 @@
 .navbar img {
   width: 200px;
 }
+.img-navbar {
+  background: url(../resource/logo-transparente-1.png);
+}
+.img-navbar.active {
+  background: url(../resource/logo-transparente-fondo-color.png);
+}
 .text-center a {
   color: #ffffff;
   text-decoration: none;
@@ -23,7 +29,7 @@
 .btn-login {
   margin: auto 5px;
   padding: 10px;
-  background: none;
+  background: #233b80;
   border: none;
   color: #ffffff;
 }
@@ -41,8 +47,9 @@
 }
 
 .masthead h2 {
-  color: #ffffff;
+  color: #233b80;
   font-size: 25px;
+  font-weight: 900;
 }
 .mx-auto img {
   width: 100%;
@@ -55,25 +62,54 @@
       rgba(0, 0, 0, 0.3) 0%,
       rgba(0, 174, 239, 0.7) 75%,
       #00aeef 100%
-    ), */ url("../resource/background2.png");
+    ), */ url("../resource/fondo-network.png");
   /* /filter: blur(2px); */
+  background-color: rgba(255, 255, 255, 0.8);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
+.nosotros h2 {
+  font-weight: 900;
+  font-size: 40px;
+}
 .img-why {
-  margin-bottom: -100px;
+  max-width: 20%;
+  margin-bottom: -10%;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 50%;
+}
+.icon-man {
+  position: relative;
+  max-width: 20%;
+  margin-top: -20%;
+  transform: rotatey(180deg);
+}
+.content-iconMan {
+  text-align: end;
+}
+.content-imgPareja {
+  text-align: start;
 }
 .projects-section {
   margin-top: 100px;
 }
 .projects-section h2 {
+  font-weight: 900;
   text-align: center;
   font-size: 40px;
   letter-spacing: 3px;
   margin-bottom: 100px;
   color: #029bc6;
+}
+.img-pareja {
+  position: relative;
+  max-width: 20%;
+  margin-top: -20%;
+  transform: rotatey(180deg);
 }
 .team h1 {
   margin-top: -70px;
@@ -126,13 +162,13 @@
   height: 150px;
 }
 .contact-section {
-  background: linear-gradient(
+  background: 
+    /* linear-gradient(
       to bottom,
       rgba(35, 59, 128, 0.3) 0%,
       rgba(35, 59, 128, 0.7) 75%,
       #233b80 100%
-    ),
-    url("../resource/walpaper.jpg");
+    ), */ url("../resource/fondo-1366×768.jpg");
   /* /filter: blur(2px); */
   background-position: center;
   background-repeat: no-repeat;
@@ -145,7 +181,8 @@
   color: #ffffff;
 }
 .contact-section h1 {
-  color: #ffffff;
+  color: #233b80;
+  font-weight: 900;
 }
 .contact-section .btn {
   display: block;

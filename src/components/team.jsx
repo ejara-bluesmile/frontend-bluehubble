@@ -10,7 +10,7 @@ export default function Team() {
     <div>
       <section class="team-section" id="team">
         <div class="container team">
-          <h1>Developed by:</h1>
+          {/* <h1>Developed by:</h1> */}
           <img className="team-img" src={blue} alt="" />
           <div class="row">
             <div class="col-md-4 mb-3 mb-md-0">

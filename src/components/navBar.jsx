@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import blue from "../resource/bluehubble-.png";
+import blue from "../resource/logo-transparente-1.png";
 
 import "./common.css";
 
@@ -25,7 +25,7 @@ export default function NavBar() {
         id="mainNav"
       >
         <div className="container">
-          <img src={blue} alt="" />
+          <img className="img-navbar" src={blue} alt="" />
 
           <button
             className="navbar-toggler navbar-toggler-right"

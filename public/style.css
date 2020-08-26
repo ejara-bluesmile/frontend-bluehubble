@@ -10619,10 +10619,10 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(9, 19, 153, 0.75);
   }
   #mainNav .nav-link:active {
     color: #fff;
@@ -10675,7 +10675,7 @@ body {
       rgba(0, 0, 0, 0.7) 75%,
       #000000 100%
     ),
-    url("../src/resource/wallpaper.jpg");
+    url("../src/resource/fondo-network.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10720,14 +10720,14 @@ body {
 }
 
 .about-section {
-  background: #ffffff;
+  background: #029bc6;
   padding-top: 10rem;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     #00608d 0%,
     rgba(2, 155, 198, 0.9) 75%,
     rgba(2, 155, 198, 0.8) 100%
-  );
+  ); */
   /* border-bottom: solid 10px #00608d; */
 }
 .about-section p {

@@ -2,6 +2,7 @@ import React from "react";
 import prod1 from "../resource/product5.jpg";
 import prod2 from "../resource/dash.jpg";
 import prod3 from "../resource/dash2.jpg";
+import imgpareja from "../resource/hombremujer.png";
 
 export default function Product() {
   return (
@@ -9,6 +10,9 @@ export default function Product() {
       <section class="projects-section bg-light" id="projects">
         <div class="container product">
           <h2>Productos</h2>
+          {/* <div className="content-imgPareja">
+            <img className="img-pareja img-fluid  " src={imgpareja} alt="" />
+          </div> */}
           <div class="row align-items-center no-gutters mb-4 mb-lg-5">
             <div class="col-xl-5 col-lg-7">
               <img class="img-fluid mb-3 mb-lg-0" src={prod1} alt="" />

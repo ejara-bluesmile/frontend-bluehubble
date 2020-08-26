@@ -1,4 +1,5 @@
 import React from "react";
+import imgpareja from "../resource/hombremujer.png";
 
 export default function contact() {
   return (
@@ -42,6 +43,9 @@ export default function contact() {
               Send
             </button>
           </div>
+        </div>
+        <div className="content-imgPareja">
+          <img className="img-pareja img-fluid  " src={imgpareja} alt="" />
         </div>
       </section>
     </div>
