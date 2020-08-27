@@ -25,6 +25,7 @@ export default function NavBar() {
         id="mainNav"
       >
         <div className="container">
+          <div className="logo-hubble"></div>
           <img className="img-navbar" src={blue} alt="" />
 
           <button
@@ -69,7 +70,7 @@ export default function NavBar() {
               >
                 Login
               </button>
-
+              <br />
               <div
                 class="modal fade"
                 id="exampleModal"

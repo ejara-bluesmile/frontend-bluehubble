@@ -13,14 +13,21 @@
   background: #233b80;
   transition: ease 0.9s;
 }
+.navbar a {
+  color: black;
+}
+.active a {
+  color: #ced4da;
+}
 .navbar img {
   width: 200px;
 }
-.img-navbar {
-  background: url(../resource/logo-transparente-1.png);
-}
-.img-navbar.active {
-  background: url(../resource/logo-transparente-fondo-color.png);
+/* .img-navbar {
+  background: rgba(0, 96, 142, 0.1);
+} */
+.active .img-navbar {
+  background: #ffffff;
+  border-radius: 5px;
 }
 .text-center a {
   color: #ffffff;
@@ -156,6 +163,8 @@
 }
 
 .team-icon {
+  border-radius: 50%;
+  box-shadow: 0 0 10px grey;
   display: block;
   margin: auto;
   width: 150px;

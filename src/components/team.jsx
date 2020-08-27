@@ -1,8 +1,8 @@
 import React from "react";
-import Icon from "../resource/avatar.png";
-import Icon2 from "../resource/perfil2.png";
+import Icon from "../resource/6.jpg";
+import Icon2 from "../resource/2.jpg";
 
-import Icon3 from "../resource/perfil2.webp";
+import Icon3 from "../resource/1.jpg";
 import blue from "../resource/bluesmile-icon.png";
 
 export default function Team() {
