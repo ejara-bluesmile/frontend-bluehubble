@@ -25,8 +25,9 @@ export default function NavBar() {
         id="mainNav"
       >
         <div className="container">
-          <div className="logo-hubble"></div>
-          <img className="img-navbar" src={blue} alt="" />
+          <div className="logo-hubble">
+            <img className="img-navbar" src={blue} alt="" />
+          </div>
 
           <button
             className="navbar-toggler navbar-toggler-right"

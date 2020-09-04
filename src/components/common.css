@@ -1,3 +1,8 @@
+hr {
+  border: 5px solid #233b80;
+  width: 150px;
+  border-radius: 15px;
+}
 .navbar {
   background: transparent;
   position: fixed;
@@ -14,7 +19,8 @@
   transition: ease 0.9s;
 }
 .navbar a {
-  color: black;
+  color: #233b80;
+  font-weight: 600;
 }
 .active a {
   color: #ced4da;
@@ -22,12 +28,14 @@
 .navbar img {
   width: 200px;
 }
-/* .img-navbar {
-  background: rgba(0, 96, 142, 0.1);
-} */
+.img-navbar {
+  background: url("../resource/logo-transparente-1.png");
+  width: 100px;
+}
 .active .img-navbar {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 1);
   border-radius: 5px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .text-center a {
   color: #ffffff;
@@ -54,7 +62,7 @@
 }
 
 .masthead h2 {
-  color: #233b80;
+  color: #009ee3;
   font-size: 25px;
   font-weight: 900;
 }
@@ -102,7 +110,7 @@
   text-align: start;
 }
 .projects-section {
-  margin-top: 100px;
+  margin-top: 0;
 }
 .projects-section h2 {
   font-weight: 900;
@@ -140,11 +148,21 @@
   color: #233b80;
 }
 .team-section {
+  padding-top: 100px;
   padding-bottom: 40px;
 }
 .card {
+  border: none;
+  transition: all 0.5s;
+}
+.card-header {
+  background: #ffffff;
+  border: none;
+}
+.card-body {
   margin-top: 20px;
   background: #029bc6;
+  border-radius: 10px;
 }
 .card h4 {
   color: #ffffff;
@@ -170,15 +188,23 @@
   width: 150px;
   height: 150px;
 }
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 15px 20px 0 grey;
+  border-radius: 15px;
+}
+.card hr {
+  color: #009ee3;
+}
 .contact-section {
-  background: 
+  background:  
     /* linear-gradient(
       to bottom,
       rgba(35, 59, 128, 0.3) 0%,
       rgba(35, 59, 128, 0.7) 75%,
       #233b80 100%
     ), */ url("../resource/fondo-1366×768.jpg");
-  /* /filter: blur(2px); */
+  /* filter: blur(2px); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

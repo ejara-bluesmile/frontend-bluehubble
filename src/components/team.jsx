@@ -10,12 +10,13 @@ export default function Team() {
     <div>
       <section class="team-section" id="team">
         <div class="container team">
-          {/* <h1>Developed by:</h1> */}
           <img className="team-img" src={blue} alt="" />
           <div class="row">
             <div class="col-md-4 mb-3 mb-md-0">
-              <img className="team-icon" src={Icon} alt="" />
               <div class="card ">
+                <div className="card-header ">
+                  <img className="team-icon" src={Icon} alt="" />
+                </div>
                 <div class="card-body text-center">
                   <i class="fa fa-user-tie text-primary mb-2"></i>
                   <h4 class="text-uppercase m-0">Diego Quintana</h4>
@@ -28,8 +29,10 @@ export default function Team() {
               </div>
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
-              <img className="team-icon" src={Icon3} alt="" />
               <div class="card ">
+                <div className="card-header ">
+                  <img className="team-icon" src={Icon3} alt="" />
+                </div>
                 <div class="card-body text-center">
                   <i class="fa fa-user-tie text-primary mb-2"></i>
                   <h4 class="text-uppercase m-0">Sebastian Henao</h4>
@@ -41,8 +44,10 @@ export default function Team() {
               </div>
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
-              <img className="team-icon" src={Icon2} alt="" />
               <div class="card ">
+                <div className="card-header ">
+                  <img className="team-icon" src={Icon2} alt="" />
+                </div>
                 <div class="card-body text-center">
                   <i class="fa fa-user-tie text-primary mb-2"></i>
                   <h4 class="text-uppercase m-0">Cristian Robles</h4>

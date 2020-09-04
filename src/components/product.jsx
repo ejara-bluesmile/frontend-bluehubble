@@ -10,6 +10,7 @@ export default function Product() {
       <section class="projects-section bg-light" id="projects">
         <div class="container product">
           <h2>Productos</h2>
+          <hr />
           {/* <div className="content-imgPareja">
             <img className="img-pareja img-fluid  " src={imgpareja} alt="" />
           </div> */}

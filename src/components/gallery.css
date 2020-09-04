@@ -1,0 +1,12 @@
+.gallery img {
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 cadetblue;
+}
+h1 {
+  color: #029bc6;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+  font-weight: 900;
+}
