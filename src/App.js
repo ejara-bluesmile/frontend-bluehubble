@@ -3,10 +3,10 @@ import NavBar from "./components/navBar";
 import Carrusel from "./components/carousel";
 import Product from "./components/product";
 import Gallery from "./components/gallery";
-import Galeria from "./components/galeria";
 import Team from "./components/team";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import "./components/common.css";
 
 function App() {
   return (
@@ -14,8 +14,7 @@ function App() {
       <NavBar />
       <Carrusel />
       <Product />
-      {/* <Gallery /> */}
-      <Galeria />
+      <Gallery />
       <Team />
       <Contact />
       <Footer />

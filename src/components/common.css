@@ -133,6 +133,17 @@ hr {
   letter-spacing: 4px;
   margin-bottom: 50px;
 }
+.gallery {
+  margin-top: 100px;
+}
+.gallery h1 {
+  font-weight: 900;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 100px;
+  color: #029bc6;
+}
 
 .product img {
   width: 100%;
@@ -243,4 +254,26 @@ footer {
 .font-contact {
   display: block;
   margin: auto;
+}
+
+.modal-content {
+  border: none;
+  border-radius: 15px;
+}
+.modal-header {
+  border-bottom: 1px solid #009ee3;
+}
+.modal-title {
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 30px;
+  color: #233b80;
+}
+.modal-body {
+  border: none;
+}
+.modal-body label {
+  color: rgb(65, 65, 65);
+  letter-spacing: 4px;
+  text-align: center;
 }

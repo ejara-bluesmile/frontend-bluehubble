@@ -11,6 +11,8 @@ export default function Team() {
       <section class="team-section" id="team">
         <div class="container team">
           <img className="team-img" src={blue} alt="" />
+          <hr />
+          <br />
           <div class="row">
             <div class="col-md-4 mb-3 mb-md-0">
               <div class="card ">

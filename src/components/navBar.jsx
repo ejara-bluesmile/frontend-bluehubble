@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import blue from "../resource/logo-transparente-1.png";
 
-import "./common.css";
-
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
@@ -51,6 +49,11 @@ export default function NavBar() {
               <li className="nav-item">
                 <a className="nav-link js-scroll-trigger" href="#projects">
                   Product
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#gallery">
+                  Gallery
                 </a>
               </li>
               <li className="nav-item">
